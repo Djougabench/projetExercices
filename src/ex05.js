@@ -1,6 +1,8 @@
 const showStar = (nbStar) => {
-    for (i = 0; i <= nbStar; i += '*') {
-        console.log(i)
+    for (let i = 0; i <= nbStar; i += 1) {
+        console.log('*'.repeat(i))
     }
 }
-console.log(showStar(3))
+showStar(3)
+console.log('####################')
+showStar(10)
